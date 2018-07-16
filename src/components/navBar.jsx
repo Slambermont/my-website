@@ -6,6 +6,11 @@ class NavBar extends Component {
     return (
       <div className='nav-bar'>
         <h2>This is the NAVIGATION bar</h2>
+        <nav>
+          <a href='#about'>About</a>
+          <a href='#skills'>Skills</a>
+          <a href='#contact'>Contact</a>
+        </nav>
       </div>
     )
   }
