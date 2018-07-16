@@ -1,7 +1,7 @@
-.contact-page {
+.nav-bar {
+  height: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  border: 1px solid black;
+  border: 2px solid black;
 }
