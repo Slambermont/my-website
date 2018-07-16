@@ -6,4 +6,10 @@ export const toTop = () => {
   });
 }
 
-export default { toTop }
+export const toElement = (element) => {
+  element.scrollIntoView({
+    behavior: 'smooth'
+  })
+}
+
+export default { toTop, toElement }
