@@ -5,7 +5,9 @@ import { toTop as scrollToPageTop } from './scroll.jsx'
 class ScrollTop extends Component {
   render() {
     return (
-      <div className='scrollToTop-button' onClick={() => scrollToPageTop()}>Scroll to top</div>
+      <div className='scrollToTop-button' onClick={() => scrollToPageTop()}>
+        <img className='wow bounce' data-wow-duration='3s' src='up-chevron.png' alt='Scroll Up'/>
+      </div>
     );
   }
 }

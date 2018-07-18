@@ -10,7 +10,9 @@ class ScrollToNextSection extends Component {
 
   render() {
     return (
-      <div className='scrollToNext-button' onClick={() => this.scrollToPage(this.props.sectionSelector)}>Scroll</div>
+      <div className='scrollToNext-button' onClick={() => this.scrollToPage(this.props.sectionSelector)}>
+        <img className='wow bounce' data-wow-duration='3s' src='down-chevron.png' alt='Scroll Down'/>
+      </div>
     )
   }
 }

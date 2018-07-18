@@ -7,3 +7,15 @@
   position: absolute;
   bottom: 1rem;
 }
+
+.scrollToNext-button img,
+.scrollToPrevious-button img,
+.scrollToTop-button img {
+  height: 4rem;
+}
+
+.bounce {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}

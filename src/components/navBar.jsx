@@ -11,7 +11,6 @@ class NavBar extends Component {
   render() {
     return (
       <div className='nav-bar'>
-        <h2>This is the NAVIGATION bar</h2>
         <nav>
           <a onClick={() => this.scrollToPage('.about-page')}>About</a>
           <a onClick={() => this.scrollToPage('.skills-page')}>Skills</a>
