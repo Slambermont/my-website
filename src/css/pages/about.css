@@ -12,24 +12,40 @@
   flex-direction: column;
   justify-content: center;
   float: right;
-  max-width: 30%;
+  width: 30%;
   height: 100vh;
-  background-color: #121212;
-  color: white;
+  background-color: white;
+  color: #121212;
+  align-items: flex-end;
+  text-align: right;
 }
 
 .about-content-text p, h2 {
   margin: 2rem;
 }
 
-img {
-  max-height: 100%;
+.about-content-text h2 {
+  margin: 2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.background-image {
+  height: 100%;
 }
 
 .image-container {
   position: fixed;
   top: 0;
   left: -6%;
+  width: 75%;
   height: 100%;
   z-index: -10;
+  overflow: hidden;
+}
+
+.decorative-line-dark {
+  height: 1px;
+  width: 5rem;
+  background-color: black;
+  margin-right: 2rem;
 }

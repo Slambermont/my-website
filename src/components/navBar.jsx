@@ -11,10 +11,11 @@ class NavBar extends Component {
   render() {
     return (
       <div className='nav-bar'>
+        <div className='decorative-line'></div>
         <nav>
-          <a onClick={() => this.scrollToPage('.about-page')}>About</a>
-          <a onClick={() => this.scrollToPage('.skills-page')}>Skills</a>
-          <a onClick={() => this.scrollToPage('.contact-page')}>Contact</a>
+          <a onClick={() => this.scrollToPage('.contact-page')}>C O N T A C T</a>
+          <a onClick={() => this.scrollToPage('.skills-page')}>S K I L L S</a>
+          <a onClick={() => this.scrollToPage('.about-page')}>A B O U T</a>
         </nav>
       </div>
     );

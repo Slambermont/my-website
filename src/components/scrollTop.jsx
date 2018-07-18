@@ -6,7 +6,7 @@ class ScrollTop extends Component {
   render() {
     return (
       <div className='scrollToTop-button' onClick={() => scrollToPageTop()}>
-        <img className='wow bounce' data-wow-duration='3s' src='up-chevron.png' alt='Scroll Up'/>
+        <img className='wow flash' data-wow-duration='3s' src='up-chevron.png' alt='Scroll Up'/>
       </div>
     );
   }

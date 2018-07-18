@@ -1,10 +1,23 @@
 .skills-page {
   display: flex;
   position: relative;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.skills-page-content {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background-color: black;
-  color: white;
+  height: 99vh;
+  width: 100%;
+  background-color: #e2e2e2;
+}
+
+.skills {
+  display: flex;
 }
