@@ -15,19 +15,23 @@ class Skills extends Component {
       <div className='skills-page'>
         <div className='skills-page-content'>
           <ScrollToPreviousSection sectionSelector='.about-page' />
-          <h2>Skills at a Glance</h2>
+            <div className='skills-title'>
+              <div className='decorative-line-dark'></div>
+              <h1>SKI LLS AT A GL ANCE</h1>
+              <div className='decorative-line-dark'></div>
+            </div>
           <div className='skills'>
-            <div className='wow flipInY'>
-              <div>Test Driven Development</div>
+            <div className='skill wow flipInY'>
+              <h2>TEST DRIVEN DEVELOPMENT</h2>
             </div>
-            <div className='wow flipInY' data-wow-delay='150ms'>
-              <div>Agile Methodology</div>
+            <div className='skill wow flipInY' data-wow-delay='150ms'>
+              <h2>AGILE METHODOLOGY</h2>
             </div>
-            <div className='wow flipInY' data-wow-delay='300ms'>
-              <div>Object Oriented Design</div>
+            <div className='skill wow flipInY' data-wow-delay='300ms'>
+              <h2>OBJECT ORIENTED DESIGN</h2>
             </div>
-            <div className='wow flipInY' data-wow-delay='450ms'>
-              <div>Pair Programming</div>
+            <div className='skill wow flipInY' data-wow-delay='450ms'>
+              <h2>PAIR PROGRAMMING</h2>
             </div>
           </div>
           <ScrollToNextSection sectionSelector='.contact-page' />
