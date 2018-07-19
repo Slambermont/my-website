@@ -4,7 +4,6 @@
   align-items: center;
   min-height: 100vh;
   color: white;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -58,14 +57,4 @@
   width: 11rem;
   border: 1px solid #CBAC8F;
   border-radius: 10px;
-}
-
-.technologies img {
-  height: 6rem;
-  width: 6rem;
-  margin: 1rem;
-}
-
-.technologies img:hover {
-  animation-name: slideout;
 }

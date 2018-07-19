@@ -21,11 +21,12 @@ class About extends Component {
             <div className="about-content-text">
               <div className='decorative-line-dark'></div>
               <h2 className='wow slideInRight'>Who I am</h2>
-              <p className='wow slideInRight'>I'm a developer give me a job please and thank you</p>
+              <p className='wow slideInRight'>I am a Junior Full Stack Developer, freshly graduated from Makers Academy in London. Hire me.</p>
               <div className='decorative-line-dark'></div>
             </div>
           </div>
         </div>
+        
         <ScrollToNextSection sectionSelector='.skills-page' />
       </div>
     );

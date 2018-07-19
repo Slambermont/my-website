@@ -1,0 +1,30 @@
+.technologies-page {
+  display: flex;
+  position: relative;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.technologies {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.technologies img {
+  height: 6rem;
+  width: 6rem;
+  margin: 2.5rem;
+}
+
+.technologies-title {
+  display: flex;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  margin: 2rem;
+}
