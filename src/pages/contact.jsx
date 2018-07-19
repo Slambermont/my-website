@@ -8,8 +8,30 @@ class Contact extends Component {
     return (
       <div className='contact-page'>
         <ScrollToPreviousSection sectionSelector='.skills-page' />
-        <h2>This is my CONTACT page</h2>
-        <a href='mailto:salome.lambermont@gmail.com'>EMAIL ME</a>
+        <div className='contact-skewed'>
+          <div className='contact-content'>
+            <div className='wow slideInRight contact-title'>
+              <div className='decorative-line-dark'></div>
+              <h2>CONTACT ME</h2>
+              <div className='decorative-line-dark'></div>
+            </div>
+
+            <div className='media'>
+              <a className='wow flipInX media-link' data-wow-delay='200ms' href='https://github.com/Slambermont/CV'>
+                <span>See my work on GitHub</span>
+                <img src='github-icon.png'/>
+              </a>
+              <a className='wow flipInX media-link' data-wow-delay='400ms' href='mailto:salome.lambermont@gmail.com'>
+                <span>Send me an email</span>
+                <img src='email-icon.png'/>
+              </a>
+              <a className='wow flipInX media-link' data-wow-delay='600ms' href='https://www.linkedin.com/in/salom%C3%A9-lambermont-30a62410b/'>
+                <span>Find me on Linkedin</span>
+                <img src='linkedin-icon.png'/>
+              </a>
+            </div>
+          </div>
+        </div>
         <ScrollTop />
       </div>
     );

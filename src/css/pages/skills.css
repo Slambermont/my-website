@@ -4,17 +4,10 @@
   align-items: center;
   min-height: 100vh;
   color: white;
-  border-top: 1px solid #e2e2e2;
-  border-bottom: 1px solid #e2e2e2;
-}
-
-.skills-page-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 99vh;
-  width: 100%;
   background-color: #e2e2e2;
 }
 
@@ -32,19 +25,20 @@
 .skill {
   position: relative;
   width: 9rem;
-  height: 7rem;
+  height: 6rem;
   margin: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: black;
-  background-color: white;
+  color: #302625;
+  background-color: #CBAC8F;
 }
 
 .skill h2 {
+  color: white;
   font-size: 1rem;
-  width: 7rem;
+  width: 8rem;
   font-family: 'Playfair Display', serif;
 }
 
@@ -53,7 +47,7 @@
   position: absolute;
   height: 8rem;
   width: 10rem;
-  border: 1px solid white;
+  border: 1px solid #CBAC8F;
   border-radius: 10px;
 }
 
@@ -62,7 +56,7 @@
   position: absolute;
   height: 7rem;
   width: 11rem;
-  border: 1px solid white;
+  border: 1px solid #CBAC8F;
   border-radius: 10px;
 }
 
