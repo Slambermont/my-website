@@ -23,7 +23,6 @@
   align-items: center;
   font-family: 'Raleway', sans-serif;
   color: black;
-  margin: 4rem 0;
 }
 
 .skills {
@@ -65,4 +64,14 @@
   width: 11rem;
   border: 1px solid white;
   border-radius: 10px;
+}
+
+.technologies img {
+  height: 6rem;
+  width: 6rem;
+  margin: 1rem;
+}
+
+.technologies img:hover {
+  animation-name: slideout;
 }

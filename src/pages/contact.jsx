@@ -9,6 +9,7 @@ class Contact extends Component {
       <div className='contact-page'>
         <ScrollToPreviousSection sectionSelector='.skills-page' />
         <h2>This is my CONTACT page</h2>
+        <a href='mailto:salome.lambermont@gmail.com'>EMAIL ME</a>
         <ScrollTop />
       </div>
     );

@@ -7,17 +7,28 @@
   min-height: 100vh;
 }
 
+.about-skewed {
+  transform: skewX(-4deg);
+  background-color: white;
+  width: 28%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 68%;
+}
+
 .about-content-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   float: right;
-  width: 30%;
+  max-width: 90%;
   height: 100vh;
   background-color: white;
   color: #121212;
   align-items: flex-end;
   text-align: right;
+  transform: skewX(4deg)
 }
 
 .about-content-text p, h2 {
@@ -37,7 +48,7 @@
   position: fixed;
   top: 0;
   left: -6%;
-  width: 75%;
+  width: 80%;
   height: 100%;
   z-index: -10;
   overflow: hidden;
