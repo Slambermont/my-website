@@ -8,6 +8,13 @@
   background-color: white;
 }
 
+.technologies-title {
+  display: flex;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  margin: 2rem;
+}
+
 .technologies {
   display: flex;
   flex-wrap: wrap;
@@ -19,13 +26,6 @@
   height: 6rem;
   width: 6rem;
   margin: 2.5rem;
-}
-
-.technologies-title {
-  display: flex;
-  align-items: center;
-  font-family: 'Raleway', sans-serif;
-  margin: 2rem;
 }
 
 @media only screen and (max-width: 1024px) {
