@@ -12,21 +12,19 @@ class About extends Component {
   render() {
     return (
       <div className='about-page'>
-        <div className='about-content'>
-          <div className='image-container'>
-            <img className='background-image' src='blackandwhite.jpg' alt='salome'/>
-          </div>
+        <div className='wow fadeIn image-container'>
+          <img className='background-image' src='blackandwhite.jpg' alt='salome'/>
+        </div>
 
-          <div className='about-skewed'>
-            <div className="about-content-text">
-              <div className='decorative-line-dark'></div>
-              <h2 className='wow slideInRight'>Who I am</h2>
-              <p className='wow slideInRight'>I am a Junior Full Stack Developer, freshly graduated from Makers Academy in London. Hire me.</p>
-              <div className='decorative-line-dark'></div>
-            </div>
+        <div className='about-skewed'>
+          <div className="about-content-text">
+            <div className='decorative-line-dark'></div>
+            <h2 className='wow slideInRight'>Who I am</h2>
+            <p className='wow slideInRight'>I am a Junior Full Stack Developer, freshly graduated from Makers Academy in London. Hire me.</p>
+            <div className='decorative-line-dark'></div>
           </div>
         </div>
-        
+
         <ScrollToNextSection sectionSelector='.skills-page' />
       </div>
     );

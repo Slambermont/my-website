@@ -1,57 +1,8 @@
 .about-page {
   position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-
-.about-skewed {
-  transform: skewX(-4deg);
-  background-color: white;
-  width: 28%;
   height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 68%;
-}
-
-.about-skewed::before {
-  content: "";
-  position: absolute;
-  border: 1px solid white;
-  width: 100%;
-  height: 100%;
-  left: -1%;
-}
-
-
-.about-content-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  float: right;
-  max-width: 90%;
-  height: 100vh;
-  background-color: white;
-  color: #121212;
-  align-items: flex-end;
-  text-align: right;
-  transform: skewX(4deg)
-}
-
-.about-content-text p, h2 {
-  margin: 2rem;
-}
-
-.about-content-text h2 {
-  margin: 2rem;
-  font-family: 'Raleway', sans-serif;
-}
-
-.background-image {
-  height: 100%;
 }
 
 .image-container {
@@ -64,9 +15,57 @@
   overflow: hidden;
 }
 
+.about-skewed {
+  position: absolute;
+  top: 0;
+  left: 68%;
+  width: 28%;
+  height: 100%;
+  background-color: white;
+  transform: skewX(-4deg);
+}
+
+.about-skewed::before {
+  content: "";
+  position: absolute;
+  left: -1%;
+  border: 1px solid white;
+  width: 100%;
+  height: 100%;
+}
+
+.about-content-text {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: right;
+  max-width: 90%;
+  height: 100%;
+  margin: 2rem;
+  color: #121212;
+  transform: skewX(4deg);
+}
+
+.about-content-text h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.background-image {
+  height: 100%;
+}
+
 .decorative-line-dark {
   height: 1px;
   width: 5rem;
-  background-color: black;
   margin: 2rem;
+  background-color: black;
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 470px) {
+
 }
