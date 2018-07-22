@@ -14,10 +14,10 @@ class Skills extends Component {
     return (
       <div className='skills-page'>
         <ScrollToPreviousSection sectionSelector='.about-page' />
-        
+
         <div className='wow slideInLeft skills-title'>
           <div className='decorative-line-dark'></div>
-          <h1>SKI LLS AT A GL ANCE</h1>
+          <h1>SKILLS AT A GLANCE</h1>
           <div className='decorative-line-dark'></div>
         </div>
 
