@@ -1,19 +1,18 @@
 .technologies-page {
-  display: flex;
   position: relative;
-  align-items: center;
-  min-height: 100vh;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
   background-color: white;
 }
 
 .technologies {
-  width: 60%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 60%;
 }
 
 .technologies img {
