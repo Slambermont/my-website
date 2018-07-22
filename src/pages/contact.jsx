@@ -8,6 +8,7 @@ class Contact extends Component {
     return (
       <div className='contact-page'>
         <ScrollToPreviousSection sectionSelector='.skills-page' />
+
         <div className='contact-skewed'>
           <div className='contact-content'>
             <div className='wow slideInRight contact-title'>
@@ -32,6 +33,7 @@ class Contact extends Component {
             </div>
           </div>
         </div>
+        
         <ScrollTop />
       </div>
     );
