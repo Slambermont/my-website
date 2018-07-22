@@ -7,11 +7,11 @@ class Technologies extends Component {
   render() {
     return (
       <div className='technologies-page'>
-        <ScrollToPreviousSection sectionSelectior='.skills-page' />
+        <ScrollToPreviousSection sectionSelector='.skills-page' />
 
-        <div className='wow slideInRight skills-title'>
+        <div className='wow slideInRight technologies-title'>
           <div className='decorative-line-dark'></div>
-          <h1>TEC HNOL OGIES</h1>
+          <h1>TECHNOLOGIES</h1>
           <div className='decorative-line-dark'></div>
         </div>
 
@@ -25,7 +25,7 @@ class Technologies extends Component {
           <img className='wow fadeInLeft' data-wow-delay='550ms' src='react-icon.png'/>
           <img className='wow fadeInLeft' data-wow-delay='500ms' src='postgresql.png'/>
         </div>
-        
+
         <ScrollToNextSection sectionSelector='.contact-page' />
       </div>
     );
