@@ -35,7 +35,6 @@
 }
 
 .about-content-text {
-  float: right;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,8 +63,48 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .about-page {
+    background-color: white;
+    align-items: center;
+  }
+
+  .about-skewed {
+    position: static;
+    transform: none;
+    width: 45%;
+  }
+
+  .about-content-text {
+    margin: 0 4rem 0 1rem;
+    transform: none;
+  }
+
+  .image-container {
+    position: static;
+    height: 30%;
+    width: auto;
+    z-index: 100;
+  }
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 680px) {
+  .about-page {
+    flex-direction: column;
+  }
 
+  .about-skewed {
+    height: 40%;
+    width: 70%;
+  }
+
+  .about-content-text {
+    left: 0;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    max-width: 100%;
+  }
+  .decorative-line-dark {
+    margin: 1rem;
+  }
 }
