@@ -1,16 +1,16 @@
 .technologies-page {
-  position: relative;
+  align-items: center;
+  background-color: #F8F3ED;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
-  background-color: #F8F3ED;
+  justify-content: center;
+  position: relative;
 }
 
 .technologies-title {
-  display: flex;
   align-items: center;
+  display: flex;
   font-family: 'Raleway', sans-serif;
   margin: 2rem;
 }
@@ -24,8 +24,8 @@
 
 .technologies img {
   height: 6rem;
-  width: 6rem;
   margin: 2.5rem;
+  width: 6rem;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -41,8 +41,8 @@
   }
 
   .technologies-title {
-    text-align: center;
     font-size: 0.8rem;
+    text-align: center;
   }
 
   .decorative-line-dark {

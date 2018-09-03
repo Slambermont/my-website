@@ -1,54 +1,56 @@
 .about-page {
-  position: relative;
   display: flex;
-  justify-content: center;
   height: 100vh;
+  justify-content: center;
+  position: relative;
 }
 
 .image-container {
+  height: 100%;
+  left: -6%;
+  overflow: hidden;
   position: fixed;
   top: 0;
-  left: -6%;
   width: 80%;
-  height: 100%;
   z-index: -10;
-  overflow: hidden;
+
 }
 
 .about-skewed {
-  position: absolute;
-  top: 0;
-  left: 68%;
-  width: 28%;
-  height: 100%;
   background-color: white;
+  height: 100%;
+  left: 68%;
+  position: absolute;
+  transform: skewX(-4deg);
+  top: 0;
   -ms-transform: skewX(-4deg);
   -webkit-transform: skewX(-4deg);
-  transform: skewX(-4deg);
+  width: 28%;
 }
 
 .about-skewed::before {
-  content: "";
-  position: absolute;
-  left: -1%;
   border: 1px solid white;
-  width: 100%;
+  content: "";
   height: 100%;
+  left: -1%;
+  position: absolute;
+  width: 100%;
 }
 
 .about-content-text {
+  align-items: flex-end;
+  color: #121212;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  text-align: right;
-  max-width: 90%;
   height: 100%;
+  justify-content: center;
   margin: 2rem;
-  color: #121212;
+  max-width: 90%;
+  text-align: right;
+  transform: skewX(4deg);
   -ms-transform: skewX(4deg);
   -webkit-transform: skewX(4deg);
-  transform: skewX(4deg);
+
 }
 
 .about-content-text h2 {
@@ -60,16 +62,16 @@
 }
 
 .decorative-line-dark {
-  height: 1px;
-  width: 5rem;
-  margin: 2rem;
   background-color: black;
+  height: 1px;
+  margin: 2rem;
+  width: 5rem;
 }
 
 @media only screen and (max-width: 1024px) {
   .about-page {
-    background-color: white;
     align-items: center;
+    background-color: white;
   }
 
   .about-skewed {
@@ -84,8 +86,8 @@
   }
 
   .image-container {
-    position: static;
     height: 30%;
+    position: static;
     width: auto;
     z-index: 100;
   }
@@ -102,11 +104,11 @@
   }
 
   .about-content-text {
-    left: 0;
     align-items: center;
-    text-align: center;
+    left: 0;
     margin: 0;
     max-width: 100%;
+    text-align: center;
   }
   .decorative-line-dark {
     margin: 1rem;

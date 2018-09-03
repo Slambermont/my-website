@@ -7,7 +7,7 @@ class Contact extends Component {
   render() {
     return (
       <div className='contact-page'>
-        <ScrollToPreviousSection sectionSelector='.skills-page' />
+        <ScrollToPreviousSection sectionSelector='.technologies-page' />
 
         <div className='contact-skewed'>
           <div className='contact-content'>
@@ -33,7 +33,7 @@ class Contact extends Component {
             </div>
           </div>
         </div>
-        
+
         <ScrollTop />
       </div>
     );

@@ -1,19 +1,19 @@
 .skills-page {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 100vh;
   background-color: #e2e2e2;
   color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
 }
 
 .skills-title {
-  display: flex;
   align-items: center;
-  font-family: 'Raleway', sans-serif;
+  display: flex;
   color: #121212;
+  font-family: 'Raleway', sans-serif;
 }
 
 .skills {
@@ -23,41 +23,41 @@
 }
 
 .skill h2 {
+  color: white;
+  font-family: 'Playfair Display', serif;
   font-size: 1rem;
   width: 8rem;
-  font-family: 'Playfair Display', serif;
-  color: white;
 }
 
 .skill {
-  position: relative;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  text-align: center;
-  width: 9rem;
-  height: 6rem;
-  margin: 4rem;
   background-color: #CBAC8F;
   color: #302625;
+  display: flex;
+  height: 6rem;
+  justify-content: center;
+  margin: 4rem;
+  position: relative;
+  text-align: center;
+  width: 9rem;
 }
 
 .skill::before {
-  content: "";
-  position: absolute;
-  height: 8rem;
-  width: 10rem;
   border: 1px solid #CBAC8F;
   border-radius: 10px;
+  content: "";
+  height: 8rem;
+  position: absolute;
+  width: 10rem;
 }
 
 .skill::after {
-  content: "";
-  position: absolute;
-  height: 7rem;
-  width: 11rem;
   border: 1px solid #CBAC8F;
   border-radius: 10px;
+  content: "";
+  height: 7rem;
+  position: absolute;
+  width: 11rem;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -78,8 +78,8 @@
   }
 
   .skills-title {
-    text-align: center;
     font-size: 0.8rem;
+    text-align: center;
   }
 
   .decorative-line-dark {

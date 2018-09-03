@@ -20,7 +20,7 @@ class About extends Component {
           <div className="about-content-text">
             <div className='decorative-line-dark'></div>
             <h2 className='wow slideInRight'>Who I am</h2>
-            <p className='wow slideInRight'>I am a Junior Full Stack Developer, freshly graduated from Makers Academy in London. Hire me.</p>
+            <p className='wow slideInRight'>I am a Junior Developer with a passion for front end technologies. I graduated from Makers Academy, a 16 week coding bootcamp, in July 2018. I am currenty looking for an opportunity to kickstart my career in a London-based digital agency.</p>
             <div className='decorative-line-dark'></div>
           </div>
         </div>
