@@ -73,6 +73,11 @@
 }
 
 @media only screen and (max-width: 680px) {
+  .skills-page {
+    height: auto;
+    padding: 6rem;
+  }
+
   .skill {
     margin: 2rem;
   }

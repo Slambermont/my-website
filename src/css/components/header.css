@@ -24,3 +24,25 @@ header h1 {
 header span {
   margin-right: 1rem;
 }
+
+.hidden-menu {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media only screen and (max-width: 680px) {
+  header {
+    height: 2rem;
+  }
+
+  header h1 {
+    display: none;
+  }
+
+  .hidden-menu {
+    display: block;
+  }
+}

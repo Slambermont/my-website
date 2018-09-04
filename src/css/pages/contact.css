@@ -86,16 +86,16 @@
   .contact-skewed {
     height: 70%;
     left: 0;
-    transform: skewX(-4deg);
-    -ms-transform: skewX(-4deg);
-    -webkit-transform: skewX(-4deg);
+    transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
     width: 100%;
   }
 
   .contact-content {
-    transform: skewX(4deg);
-    -ms-transform: skewX(4deg);
-    -webkit-transform: skewX(4deg);
+    transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
   }
 
   .contact-title {
