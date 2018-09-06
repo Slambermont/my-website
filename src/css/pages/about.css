@@ -86,7 +86,7 @@
   }
 
   .image-container {
-    height: 30%;
+    max-height: 40%;
     position: static;
     width: auto;
     z-index: 2;
@@ -100,7 +100,7 @@
 
   .about-skewed {
     height: 40%;
-    width: 70%;
+    width: 90%;
   }
 
   .about-content-text {
