@@ -35,16 +35,16 @@ class Menu extends Component {
 
   render() {
     return (
-      <div>
-        <button onClick={this.showMenu}>Menu</button>
+      <div className='menu-container'>
+        <img src='menu-icon.png' onClick={this.showMenu} />
 
       {
         this.state.showMenu
           ? (
             <div className="menu">
-              <a onClick={() => this.scrollToPage('.contact-page')}>C O N T A C T</a>
-              <a onClick={() => this.scrollToPage('.skills-page')}>S K I L L S</a>
               <a onClick={() => this.scrollToPage('.about-page')}>A B O U T</a>
+              <a onClick={() => this.scrollToPage('.skills-page')}>S K I L L S</a>
+              <a onClick={() => this.scrollToPage('.contact-page')}>C O N T A C T</a>
             </div>
           )
           : (

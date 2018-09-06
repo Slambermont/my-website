@@ -20,3 +20,9 @@
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
+
+@media only screen and (max-width: 680px) {
+  .scrollToPrevious-button {
+    top: 1rem;
+  }
+}

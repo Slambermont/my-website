@@ -20,6 +20,7 @@ class NavBar extends Component {
         <div className='wow fadeIn decorative-line'></div>
         <nav className='wow jackInTheBox' data-wow-delay='500ms'>
           <a onClick={() => this.scrollToPage('.contact-page')}>C O N T A C T</a>
+          <a onClick={() => this.scrollToPage('.technologies-page')}>T E C H</a>
           <a onClick={() => this.scrollToPage('.skills-page')}>S K I L L S</a>
           <a onClick={() => this.scrollToPage('.about-page')}>A B O U T</a>
         </nav>
