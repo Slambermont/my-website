@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class Hover extends Component {
   constructor(props) {
@@ -25,17 +26,25 @@ class Hover extends Component {
         <div>
           { this.state.isHovering ?
             <div onMouseLeave={this.handleMouseHover}>
-              HOVERING
+              {this.props.techName}
             </div>
           :
             <div onMouseEnter={this.handleMouseHover}>
-              Not hovering
+              <img className='wow fadeInLeft'
+                data-wow-delay={this.props.delay}
+                src={this.props.imageName}/>
             </div>
           }
         </div>
       </div>
     )
   }
+}
+
+Hover.propTypes = {
+  imageName: PropTypes.string,
+  delay: PropTypes.string,
+  techName: PropTypes.string,
 }
 
 export default Hover

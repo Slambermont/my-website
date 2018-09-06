@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../css/pages/technologies.css';
 import ScrollToNextSection from '../components/scrollToNextSection.jsx';
 import ScrollToPreviousSection from '../components/scrollToPreviousSection.jsx';
+import Hover from '../components/hover.jsx';
 
 class Technologies extends Component {
   render() {
@@ -16,14 +17,14 @@ class Technologies extends Component {
         </div>
 
         <div className='technologies'>
-          <img className='wow fadeInLeft' data-wow-delay='850ms' src='javascript-icon.png'/>
-          <img className='wow fadeInLeft' data-wow-delay='800ms' src='ruby-icon.png'/>
-          <img className='wow fadeInLeft' data-wow-delay='750ms' src='rails-icon.png'/>
-          <img className='wow fadeInLeft' data-wow-delay='700ms' src='html-icon.png'/>
-          <img className='wow fadeInLeft' data-wow-delay='650ms' src='css-icon.png'/>
-          <img className='wow fadeInLeft' data-wow-delay='600ms' src='nodejs-icon.png'/>
-          <img className='wow fadeInLeft' data-wow-delay='550ms' src='react-icon.png'/>
-          <img className='wow fadeInLeft' data-wow-delay='500ms' src='postgresql.png'/>
+          <Hover imageName='javascript-icon.png' delay='850ms' techName='Javascript' />
+          <Hover imageName='ruby-icon.png' delay='800ms' techName='Ruby' />
+          <Hover imageName='rails-icon.png' delay='750ms' techName='Rails' />
+          <Hover imageName='html-icon.png' delay='700ms' techName='HTML5' />
+          <Hover imageName='css-icon.png' delay='650ms' techName='CSS3' />
+          <Hover imageName='nodejs-icon.png' delay='600ms' techName='NodeJS' />
+          <Hover imageName='react-icon.png' delay='550ms' techName='ReactJS' />
+          <Hover imageName='postgresql.png' delay='500ms' techName='PostgreSQL' />
         </div>
 
         <ScrollToNextSection sectionSelector='.contact-page' />
